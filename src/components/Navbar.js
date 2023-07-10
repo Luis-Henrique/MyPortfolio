@@ -1,5 +1,4 @@
 import "./NavbarStyles.css"
-import { Link } from "react-router-dom"
 import { FaBars } from "react-icons/fa" 
 import { FaTimes } from "react-icons/fa" 
 import React, {useState} from "react"
@@ -10,18 +9,19 @@ const Navbar = () => {
 
     return (
         <div className="header">
-            <Link to="/">
-                <h1>Portifolio</h1>
-            </Link>
+            <a className="profile" href="#home">
+                <div className="profile-pic"/>
+                <h1 className="profile-text">LUIS HENRIQUE</h1>
+            </a>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li>
-                    <Link to="/">Home</Link>
+                    <a href="#home"><div className="nav-item">Home</div></a>
                 </li>
                 <li>
-                    <Link to="/contact">Contact</Link>
+                    <a className="nav-item" href="#contact"><div className="nav-item">Contact</div></a>
                 </li>
                 <li>
-                    <Link to="/projects">Projects</Link>
+                    <a className="nav-item" href="#projects"><div className="nav-item">Projects</div></a>
                 </li>
             </ul>
             <div className="toggle" onClick={handleClick}>
