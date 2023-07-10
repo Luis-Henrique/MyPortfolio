@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import "./index.css"
-import Home from "./routes/Home"
+import Home from "./pages/Home"
 
 function App(){
     return(
@@ -11,6 +11,6 @@ function App(){
             </Routes>
         </>
     );
-}
+};
 
 export default App;
