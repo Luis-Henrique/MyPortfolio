@@ -16,7 +16,7 @@ const Navbar = () => {
             </a>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li>
-                    <AnchorLink href='#about' className="nav-item"><div className="nav-item">Sobre</div></AnchorLink>
+                    <AnchorLink href='#about-anchor' className="nav-item"><div className="nav-item">Sobre</div></AnchorLink>
                 </li>
                 <li>
                     <AnchorLink href='#courses' className="nav-item"><div className="nav-item">Cursos</div></AnchorLink>
