@@ -2,6 +2,7 @@ import "./NavbarStyles.css"
 import { FaBars } from "react-icons/fa" 
 import { FaTimes } from "react-icons/fa" 
 import React, {useState} from "react"
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Navbar = () => {
     const[click, setClick] = useState(false)
@@ -15,13 +16,16 @@ const Navbar = () => {
             </a>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li>
-                    <a href="#home"><div className="nav-item">Home</div></a>
+                    <AnchorLink href='#about-anchor' className="nav-item"><div className="nav-item">Sobre</div></AnchorLink>
                 </li>
                 <li>
-                    <a className="nav-item" href="#contact"><div className="nav-item">Contact</div></a>
+                    <AnchorLink href='#courses' className="nav-item"><div className="nav-item">Cursos</div></AnchorLink>
                 </li>
                 <li>
-                    <a className="nav-item" href="#projects"><div className="nav-item">Projects</div></a>
+                    <AnchorLink href='#contact' className="nav-item"><div className="nav-item">Contato</div></AnchorLink>
+                </li>
+                <li>
+                    <a className="nav-item" href="#projects"><div className="nav-item">Projetos</div></a>
                 </li>
             </ul>
             <div className="toggle" onClick={handleClick}>

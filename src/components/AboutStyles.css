@@ -1,0 +1,213 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    gap: 100px
+}
+
+.about-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.skills-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.skills-resume{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-resume-title{
+    display: flex;
+    width: 176px;
+    height: 55px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.8px;
+}
+
+.skills-resume-divider{
+    width: 59px;
+    height: 6px;
+    background: #FE5B49;
+}
+
+.about-header-background{
+    position: relative;
+    width: 997px;
+    height: 387px;
+    flex-shrink: 0;
+    background: url(/src/assets/img/about.svg), 100% 100% no-repeat;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    z-index: 1;
+}
+
+.about-header{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 670px;
+    width: 268px;
+    height: 136px;
+    z-index: 2;
+}
+
+.about-header-title{
+    display: flex;
+    width: 176px;
+    height: 55px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.7px;
+}
+
+.about-header-highligth{
+    color: #FE5B49;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.7px;
+}
+
+.about-header-content{
+    display: flex;
+    width: 267px;
+    height: 75px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.35px;
+}
+
+.about-resume-title{
+    display: flex;
+    width: 176px;
+    height: 55px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.8px;
+}
+
+.about-resume-divider{
+    width: 59px;
+    height: 6px;
+    background: #FE5B49;
+}
+
+.about-resume-content{
+    padding-top: 30px;
+    display: flex;
+    width: 752px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.35px;
+}
+
+.about-resume{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.about-anchor {
+    width: 50px;
+    height: 20px;
+}
+
+.skills-resume{
+    
+}
+
+.cv-btn{
+    width: 100%;
+    height: 100%;
+}
+
+.button {
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 7px;
+    border: none;
+    background: #FE5B49;
+  }
+  
+  .button-light {
+    background: rgba(255, 255, 255, 0.2); 
+    color: #FE5B49;
+  }
+  
+  .button:hover {
+    background: rgb(254, 91, 73, 0.80);
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  .cv-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    width: 100%;
+    height: 80px;
+  }
