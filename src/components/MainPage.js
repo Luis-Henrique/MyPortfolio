@@ -7,7 +7,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const MainPage = () => {
     return (
-        <div className="about">
+        <div className="home">
             <section id="home">
                 <div className="hero-container">
                     <div className="hand-emoji"/>

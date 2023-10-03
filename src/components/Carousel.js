@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import "./Carousel.css"
+import "./CarouselStyles.css"
 import React, { useRef, useEffect, useState } from "react";
 
 import item1 from "../assets/img/item1.png"
