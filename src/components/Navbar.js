@@ -10,7 +10,7 @@ const Navbar = () => {
 
     return (
         <div className="header">
-            <a className="profile" href="#home">
+            <a className="nav-profile" href="#home">
                 <div className="profile-pic"/>
                 <h1 className="profile-text">LUIS HENRIQUE</h1>
             </a>

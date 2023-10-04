@@ -34,7 +34,7 @@
     display: none;
 }
 
-.profile{
+.nav-profile{
     width: 170px;
     height: 40px;
     flex-shrink: 0;

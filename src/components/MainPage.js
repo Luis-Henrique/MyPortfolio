@@ -1,9 +1,6 @@
 import "./MainPageStyles.css"
 import React from "react"
-import Lottie from 'react-lottie';
-import * as animationData from './scrollanimation.json'
-import { ScrollButton } from "./Scroll";
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+import {ScrollButton} from "./Scroll";
 
 const MainPage = () => {
     return (
