@@ -25,3 +25,8 @@
     cursor: grab;
     overflow: hidden;
 }
+
+.swipe{
+    position: absolute;
+    right: 0;
+}

@@ -71,11 +71,15 @@
     flex-wrap: wrap;
 }
 
-.hero-contant-scroll{
-    padding-top: 150px;
-}
-
 .home{
     width: 100vw;
     height: 90vh;
+}
+
+.btn-handler{
+    gap: 1000px;
+}
+
+.hero-contant-scroll{
+    margin-top: 100px;
 }

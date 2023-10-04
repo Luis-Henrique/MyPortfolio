@@ -17,6 +17,7 @@ function Carousel () {
   }, []);
 
   return (
+    <>
     <div className="mainCarousel">
 
       <motion.div ref={carousel} className="carousel" whileTap={{ cursor: "grabbing" }}>
@@ -31,8 +32,8 @@ function Carousel () {
 
         </motion.div>
       </motion.div>
-
     </div>
+    </>
   );
 }
 
