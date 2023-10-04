@@ -27,15 +27,6 @@ const About = () => {
                     <button className="button">Baixar Currículo</button>
                 </div>
             </div>
-            <div className="skills-section">
-                <section>
-                    <div className="skills-resume">
-                            <p className="skills-resume-title">Habilidades</p>
-                            <div className="skills-resume-divider"></div>
-                            <Carousel/>
-                    </div>
-                </section>
-            </div>
         </div>
     );
 };

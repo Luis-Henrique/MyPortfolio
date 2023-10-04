@@ -10,7 +10,7 @@ const Navbar = () => {
 
     return (
         <div className="header">
-            <a className="nav-profile" href="#home">
+            <a className="nav-profile" href="/">
                 <div className="profile-pic"/>
                 <h1 className="profile-text">LUIS HENRIQUE</h1>
             </a>
@@ -19,13 +19,10 @@ const Navbar = () => {
                     <AnchorLink href='#about-anchor' className="nav-item"><div className="nav-item">Sobre</div></AnchorLink>
                 </li>
                 <li>
-                    <AnchorLink href='#courses' className="nav-item"><div className="nav-item">Cursos</div></AnchorLink>
+                    <AnchorLink href='#courses' className="nav-item"><div className="nav-item">Habilidades</div></AnchorLink>
                 </li>
                 <li>
-                    <AnchorLink href='#contact' className="nav-item"><div className="nav-item">Contato</div></AnchorLink>
-                </li>
-                <li>
-                    <a className="nav-item" href="#projects"><div className="nav-item">Projetos</div></a>
+                    <a className="nav-item" href="/projects"><div className="nav-item">Projetos</div></a>
                 </li>
             </ul>
             <div className="toggle" onClick={handleClick}>

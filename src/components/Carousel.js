@@ -18,21 +18,29 @@ function Carousel () {
 
   return (
     <>
-    <div className="mainCarousel">
+    <div className="skills-section">
+                <section>
+                    <div className="skills-resume">
+                            <p className="skills-resume-title">Hard Skills</p>
+                            <div className="skills-resume-divider"></div>
+                            <div className="mainCarousel">
+                              <motion.div ref={carousel} className="carousel" whileTap={{ cursor: "grabbing" }}>
+                                
+                                <motion.div className="inner" drag="x" dragConstraints={{ right: 0, left: -width}}>
 
-      <motion.div ref={carousel} className="carousel" whileTap={{ cursor: "grabbing" }}>
-        
-        <motion.div className="inner" drag="x" dragConstraints={{ right: 0, left: -width}}>
+                                  {images.map(image => (
+                                    <motion.div className="item" key={image}>
+                                      <img src={image} alt="image"/>
+                                    </motion.div>
+                                  ))}
 
-          {images.map(image => (
-            <motion.div className="item" key={image}>
-              <img src={image} alt="image"/>
-            </motion.div>
-          ))}
-
-        </motion.div>
-      </motion.div>
-    </div>
+                                </motion.div>
+                              </motion.div>
+                          </div>
+                     </div>
+                </section>
+            </div>
+   
     </>
   );
 }

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import './ProjectStyle.css'
 import ReactDOM from 'react-dom';
+import "./ProjectStyle.css"
 
 export const Projects = () => {
   const [filter, setFilter] = useState('tudo');
@@ -36,12 +36,43 @@ export const Projects = () => {
       profileImgSrc: 'img/profile-3.jpg',
       profileName: 'Alexandra Miller',
     },
+    {
+        category: 'planeta',
+        imgSrc: 'img/post-1.jpg',
+        categoryText: 'Planeta',
+        postTitle: 'How To Create Best Ux Design With Adobe XD',
+        postDate: '12 Feb 2022',
+        postDescription: 'In this tutorial, we will explore the world of UX design using Adobe XD. Learn the best practices, tips, and tricks to create outstanding user experiences.',
+        profileImgSrc: 'img/profile-1.jpg',
+        profileName: 'Marques Brown',
+      },
+      {
+        category: 'colonizacao',
+        imgSrc: 'img/post-2.jpg',
+        categoryText: 'Colonização',
+        postTitle: 'Exploring the History of Colonization',
+        postDate: '18 Mar 2022',
+        postDescription: 'Dive into the fascinating history of colonization, its impact on civilizations, and the lessons we can learn from it in the modern world.',
+        profileImgSrc: 'img/profile-2.jpg',
+        profileName: 'Emily Carter',
+      },
+      {
+        category: 'transporte',
+        imgSrc: 'img/post-3.jpg',
+        categoryText: 'Transporte',
+        postTitle: 'The Future of Sustainable Transportation',
+        postDate: '25 Apr 2022',
+        postDescription: 'Explore the latest advancements in sustainable transportation and how they are shaping the future of commuting and travel.',
+        profileImgSrc: 'img/profile-3.jpg',
+        profileName: 'Alexandra Miller',
+      },
   ].filter(post => filter === 'tudo' || post.category === filter);
 
   return (
-    <div className="project-hero">
+    <>
+    <div className="project-hero-main">
       <div className="projects-resume">
-        <p className="projects-resume-title">Habilidades</p>
+        <p className="projects-resume-title">Projetos</p>
         <div className="projects-resume-divider"></div>
       </div>
       <div className="post-filter container">
@@ -91,5 +122,6 @@ export const Projects = () => {
         ))}
       </section>
     </div>
+    </>
   );
 };

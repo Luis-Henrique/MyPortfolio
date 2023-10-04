@@ -1,20 +1,16 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import MainPage from '../components/MainPage'
 import About from '../components/About'
-import Footer from '../components/Footer'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import SocialMidia from '../components/SocialMidia'
-import { Projects } from '../components/Projects'
+import { Projects } from '../components/ProjectsResume'
+import Carousel from '../components/Carousel'
 
 const Home = () => {
   return( <div>
-    <Navbar />
-    <SocialMidia />
     <MainPage />
     <About />
+    <Carousel />
     <Projects />
-    <Footer />
   </div>
   );
 };
