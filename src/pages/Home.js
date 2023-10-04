@@ -5,6 +5,7 @@ import About from '../components/About'
 import Footer from '../components/Footer'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import SocialMidia from '../components/SocialMidia'
+import { Projects } from '../components/Projects'
 
 const Home = () => {
   return( <div>
@@ -12,6 +13,7 @@ const Home = () => {
     <SocialMidia />
     <MainPage />
     <About />
+    <Projects />
     <Footer />
   </div>
   );
