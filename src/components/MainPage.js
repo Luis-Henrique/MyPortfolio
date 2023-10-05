@@ -13,7 +13,7 @@ const MainPage = () => {
                 <div className="hero-contant">
                     <p className="hero-text">Seja muito bem-vindo(a) ao meu portfólio. ✨</p>
                     <div className="hero-btn">
-                        <button className="btn">Projetos</button>
+                        <a href="/projects"><button className="btn">Projetos</button></a>
                     </div>
                     <div className="hero-contant-scroll">
                         <ScrollButton />

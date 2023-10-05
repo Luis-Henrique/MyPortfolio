@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
   
 .inner{
@@ -29,4 +29,8 @@
 .swipe{
     position: absolute;
     right: 0;
+}
+
+.skills-resume{
+    padding-top: 50px;
 }

@@ -88,10 +88,12 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-bottom: 50px;
     align-items: center;
-    width: 80hw;
-    height: auto;
+    width: 80hw;   
+    max-height: 700px;
+    overflow: hidden;
 }
 .projects-resume{
     position: relative;
@@ -99,6 +101,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 30px;
 }
 
 .projects-resume-title{
@@ -122,4 +125,18 @@
     width: 59px;
     height: 6px;
     background: #FE5B49;
+}
+
+.post-button-div{
+    transform: translateY(-180%);
+}
+.post-container{
+    position: relative;
+    padding-bottom: 20px;
+}
+.project{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
 }

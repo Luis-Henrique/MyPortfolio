@@ -1,0 +1,10 @@
+.project-hero-main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    align-items: center;
+    width: 80hw;   
+}
