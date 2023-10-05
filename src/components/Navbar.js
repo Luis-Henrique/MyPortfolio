@@ -1,17 +1,17 @@
-import "./NavbarStyles.css"
-import { FaBars } from "react-icons/fa" 
-import { FaTimes } from "react-icons/fa" 
-import React, {useState} from "react"
+import "./css/NavbarStyles.css"
+import { FaBars } from "react-icons/fa"
+import { FaTimes } from "react-icons/fa"
+import React, { useState } from "react"
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Navbar = () => {
-    const[click, setClick] = useState(false)
+    const [click, setClick] = useState(false)
     const handleClick = () => setClick(!click)
 
     return (
         <div className="header">
             <a className="nav-profile" href="/">
-                <div className="profile-pic"/>
+                <div className="profile-pic" />
                 <h1 className="profile-text">LUIS HENRIQUE</h1>
             </a>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
@@ -26,7 +26,7 @@ const Navbar = () => {
                 </li>
             </ul>
             <div className="toggle" onClick={handleClick}>
-                {click ? (<FaTimes size={20}/>) : (<FaBars size={20}/>)}
+                {click ? (<FaTimes size={20} />) : (<FaBars size={20} />)}
             </div>
         </div>
     );

@@ -1,13 +1,13 @@
-import "./MainPageStyles.css"
+import "./css/MainPageStyles.css"
 import React from "react"
-import {ScrollButton} from "./Scroll";
+import { ScrollButton } from "./Scroll";
 
 const MainPage = () => {
     return (
         <div className="home">
             <section id="home">
                 <div className="hero-container">
-                    <div className="hand-emoji"/>
+                    <div className="hand-emoji" />
                     <h1 className="title">Olá, Eu sou o <span className="title-highligth">Luis</span>!</h1>
                 </div>
                 <div className="hero-contant">

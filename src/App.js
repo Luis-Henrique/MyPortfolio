@@ -7,16 +7,16 @@ import Navbar from '../src/components/Navbar'
 import Footer from '../src/components/Footer'
 import SocialMidia from '../src/components/SocialMidia'
 
-function App(){
-    return(
+function App() {
+    return (
         <>
-        <SocialMidia />
-        <Navbar />
+            <SocialMidia />
+            <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/projects" element={<Projects />} />
             </Routes>
-        <Footer />
+            <Footer />
         </>
     );
 };

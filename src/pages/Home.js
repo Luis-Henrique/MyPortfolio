@@ -4,12 +4,14 @@ import About from '../components/About'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Projects } from '../components/ProjectsResume'
 import Carousel from '../components/Carousel'
+import Experience from '../components/Experience'
 
 const Home = () => {
-  return( <div>
+  return (<div>
     <MainPage />
     <About />
     <Carousel />
+    <Experience />
     <Projects />
   </div>
   );

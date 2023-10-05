@@ -43,3 +43,35 @@ ul{
     transition: 0.3s;
     cursor: pointer;
   }
+
+  .resume-title{
+    display: flex;
+    width: 176px;
+    height: 55px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.8px;
+}
+
+.resume-divider{
+    width: 59px;
+    height: 6px;
+    background: #FE5B49;
+}
+
+.resume{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
