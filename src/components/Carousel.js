@@ -37,10 +37,10 @@ function Carousel() {
                 </motion.div>
               </motion.div>
             </div>
+            <div className="swipe">Swipe -{">"}</div>
           </div>
         </section>
       </div>
-
     </>
   );
 }

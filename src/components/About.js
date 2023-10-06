@@ -49,6 +49,7 @@ const About = () => {
                 </section>
             </div>
             <div className="cv-section">
+                <div id="skills-anchor" className="anchor"></div>
                 <div className="cv-btn">
                     <button className="button">Baixar Currículo</button>
                 </div>

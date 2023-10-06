@@ -19,7 +19,10 @@ const Navbar = () => {
                     <AnchorLink href='#about-anchor' className="nav-item"><div className="nav-item">Sobre</div></AnchorLink>
                 </li>
                 <li>
-                    <AnchorLink href='#courses' className="nav-item"><div className="nav-item">Habilidades</div></AnchorLink>
+                    <AnchorLink href='#skills-anchor' className="nav-item"><div className="nav-item">Habilidades</div></AnchorLink>
+                </li>
+                <li>
+                    <AnchorLink href='#exp-anchor' className="nav-item"><div className="nav-item">Experiência</div></AnchorLink>
                 </li>
                 <li>
                     <a className="nav-item" href="/projects"><div className="nav-item">Projetos</div></a>

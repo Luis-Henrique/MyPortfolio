@@ -94,10 +94,6 @@ const Footer = () => {
 
             <div class="legal">
                 <p>&copy; 2019 Something. All rights reserved.</p>
-
-                <div class="legal__links">
-                    <span>Made with <span class="heart">♥</span> remotely from Anywhere</span>
-                </div>
             </div>
         </footer>
     );

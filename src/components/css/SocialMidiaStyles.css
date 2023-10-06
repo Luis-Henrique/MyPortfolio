@@ -48,3 +48,9 @@
     height: 21px;
     background: url("../../assets/img/email.png"), 100% / cover no-repeat;
 }
+
+@media screen and (max-width: 550px){
+    .icon-bar {
+    padding-left: 10px;
+    }
+}

@@ -27,6 +27,27 @@
 }
 
 .swipe{
-    position: absolute;
-    right: 0;
+    display: none;
+}
+
+@media screen and (max-width: 800px){
+    .mainCarousel{
+        max-width: 650px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .mainCarousel{
+        max-width: 550px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .mainCarousel{
+        max-width: 400px;
+    }
+
+    .swipe{
+        display: flex;
+    }
 }

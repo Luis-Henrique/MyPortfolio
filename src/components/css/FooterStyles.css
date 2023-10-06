@@ -90,6 +90,8 @@
     display: flex;
     flex-wrap: wrap;
     color: #999;
+    align-items: center;
+    justify-content: center;
   }
     
   .legal__links {
@@ -122,5 +124,20 @@
     
     .footer__nav {
       flex: 2 0px;
+    }
+  }
+
+  @media screen and (max-width: 550px){
+    .footer__addr {
+      padding-left: 20px;
+    }
+    
+    .footer__nav > * {
+      padding-left: 20px;
+    }
+
+    .legal{
+      align-items: center;
+      justify-content: center;
     }
   }

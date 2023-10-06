@@ -83,3 +83,23 @@
 .hero-contant-scroll{
     margin-top: 100px;
 }
+
+@media screen and (max-width: 550px){
+    .title{
+        font-size: 30px;
+    }
+
+    .hero-text{
+        font-size: 12px;
+    }
+
+    .hand-emoji {
+        width: 30px;
+        height: 30px;
+        background: url(/src/assets/img/hand-emoji.svg) no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
