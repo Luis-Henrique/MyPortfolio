@@ -1,0 +1,103 @@
+:root {
+    --container-color:#1a1e21 ;
+    --second-color:#F35451 ;
+    --text-color:#172317 ;
+    --bg-color:#fff ;
+}
+
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+.postpage{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-contant: center;
+   width: 100vw;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-contant: center;
+}
+.post-header{
+    width: 100vw;
+    height: 500px;
+    padding-top: 100px;
+    background: #FFD28F;
+}
+.post-container{
+    max-width: 800px;
+    margin: auto;
+    width: 100%;
+}
+
+.back-home{
+    color: var(--second-color);
+    font-size: 0.9rem;
+}
+.header-title{
+    width: 100%;
+    font-size: 2.6rem;
+    color: var(--text-color);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.header-img{
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    object-position: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.post-content{
+   margin-top: 10rem !important; 
+}
+.sub-heading{
+    font-size: 1.2rem; 
+}
+.post-text{
+    font-size: 1rem;
+    line-height: 1.7rem;
+    margin: 1rem 0;
+    text-align: justify;
+}
+.share{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+.share-icon{
+    width: 20px;
+    height: 20px;
+}
+.share-title{
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 800px){
+    .header-img{
+        width: 100%;
+        height: 320px;
+    }
+    .post-container{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .header-img{
+        width: 100%;
+        height: 320px;
+    }
+    .post-container{
+        width: 80%;
+    }
+    .share{
+        flex-direction: column;
+    }
+}
