@@ -5,10 +5,11 @@ import React, { useRef, useEffect, useState } from "react";
 import item1 from "../assets/img/item1.png"
 import item2 from "../assets/img/item2.png"
 import item3 from "../assets/img/item3.png"
+import item4 from "../assets/img/item4.png"
 
 function Carousel() {
   const carousel = useRef();
-  const images = [item1, item2, item3, item3, item3];
+  const images = [item1, item2, item3, item4];
   const [width, setWidth] = useState(0);
 
   useEffect(() => {

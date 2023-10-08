@@ -19,6 +19,7 @@
 }
 .post{
     display: grid;
+    width: 80vw;
     padding-top: 20px;
     grid-template-columns: repeat(auto-fit,minmax(280px, auto));
     justify-content: center;
@@ -64,6 +65,7 @@
     line-height: 1.5rem;
     margin: 5px 0 10px;
     display: -webkit-box;
+    height: 50px;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;

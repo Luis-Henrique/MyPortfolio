@@ -1,9 +1,18 @@
 .experience-main {
-    width: 100%;
     height: auto;
+    width: 100vw;
     padding: 50px 0;
     display: grid;
     place-items: center;
+}
+
+.experience-section{
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+    background: #F7F7F7;
 }
   
 .experience-container {
@@ -74,13 +83,14 @@
 .experience-container .experience-link {
     font-size: 15px;
     color: #FE5B49; 
+    cursor: pointer;
     text-decoration: none;
 }
   
 .experience-container .experience-date {
     position: absolute;
     top: -17px; 
-    width: 135px;
+    width: 180px;
     height: 35px;
     border-radius: 20px;
     color: #fff;
@@ -159,7 +169,7 @@
     }
 
     .experience-container .experience-item:nth-child(even) .experience-date {
-        right: 10px;
+        left: 10px;
     }
 
     .experience-container .experience-item:nth-child(odd) .experience-circle {
@@ -171,6 +181,6 @@
     }
 
     .experience-container::after{
-        background: white;
+        background: #F7F7F7;
     }
 }

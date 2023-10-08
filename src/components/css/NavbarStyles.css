@@ -4,7 +4,7 @@
     align-items: center;
     position: fixed;
     padding: 1rem;
-    width: 100%;
+    width: 100vw;
     height: 87px;
     flex-shrink: 0;
     background: rgba(255, 255, 255, 0.20);
@@ -102,6 +102,10 @@
 
     .toggle{
         display: initial;
+    }
+
+    .nav-profile{
+        margin-left: 10px;
     }
 }
 

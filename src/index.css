@@ -68,6 +68,7 @@ ul{
 }
 
 .resume{
+    text-align: center;
     position: relative;
     display: flex;
     flex-direction: column;
