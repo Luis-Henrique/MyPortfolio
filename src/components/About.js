@@ -1,6 +1,5 @@
 import React from "react";
 import "./css/AboutStyles.css";
-import Carousel from "./Carousel";
 
 const About = () => {
     return (
