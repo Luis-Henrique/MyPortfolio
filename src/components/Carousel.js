@@ -1,15 +1,16 @@
 import { motion } from "framer-motion";
-import "./CarouselStyles.css"
+import "./css/CarouselStyles.css"
 import React, { useRef, useEffect, useState } from "react";
 
 import item1 from "../assets/img/item1.png"
 import item2 from "../assets/img/item2.png"
 import item3 from "../assets/img/item3.png"
+import item4 from "../assets/img/item4.png"
 
-function Carousel () {
-    const carousel = useRef();
-    const images = [item1, item2, item3, item3, item3];
-    const [width, setWidth] = useState(0);
+function Carousel() {
+  const carousel = useRef();
+  const images = [item1, item2, item3, item4];
+  const [width, setWidth] = useState(0);
 
   useEffect(() => {
     console.log(carousel.current?.scrollWidth, carousel.current?.offsetWidth);
@@ -18,29 +19,29 @@ function Carousel () {
 
   return (
     <>
-    <div className="skills-section">
-                <section>
-                    <div className="skills-resume">
-                            <p className="skills-resume-title">Hard Skills</p>
-                            <div className="skills-resume-divider"></div>
-                            <div className="mainCarousel">
-                              <motion.div ref={carousel} className="carousel" whileTap={{ cursor: "grabbing" }}>
-                                
-                                <motion.div className="inner" drag="x" dragConstraints={{ right: 0, left: -width}}>
+      <div className="skills-section">
+        <section>
+          <div className="resume">
+            <p className="resume-title">Hard Skills</p>
+            <div className="resume-divider"></div>
+            <div className="mainCarousel">
+              <motion.div ref={carousel} className="carousel" whileTap={{ cursor: "grabbing" }}>
 
-                                  {images.map(image => (
-                                    <motion.div className="item" key={image}>
-                                      <img src={image} alt="image"/>
-                                    </motion.div>
-                                  ))}
+                <motion.div className="inner" drag="x" dragConstraints={{ right: 0, left: -width }}>
 
-                                </motion.div>
-                              </motion.div>
-                          </div>
-                     </div>
-                </section>
+                  {images.map(image => (
+                    <motion.div className="item" key={image}>
+                      <img src={image} alt="image" />
+                    </motion.div>
+                  ))}
+
+                </motion.div>
+              </motion.div>
             </div>
-   
+            <div className="swipe">Swipe -{">"}</div>
+          </div>
+        </section>
+      </div>
     </>
   );
 }

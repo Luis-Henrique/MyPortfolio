@@ -32,7 +32,7 @@ export const ScrollButton = () => {
 
   const defaultOptions = {
     loop: true,
-    autoplay: true, 
+    autoplay: true,
     animationData: animationData,
     rendererSettings: {
       preserveAspectRatio: 'xMidYMid slice'
@@ -42,24 +42,24 @@ export const ScrollButton = () => {
 
   return (
     <>
-    <AnchorLink href='#about-anchor' className="nav-item">
-      <ButtonWrapper onClick={() => {
-        setAnimationState({
-          ...animationState,
-          isStopped: false,
-          direction: animationState.direction === 1
-        })
-      }}>
-        <div className="animation">
-          <Lottie
-            options={defaultOptions}
-            width={100}
-            height={100}
-            direction={animationState.direction}
-            isStopped={animationState.isStopped}
-            isPaused={animationState.isPaused}/>
-        </div>
-      </ButtonWrapper>
+      <AnchorLink href='#about-anchor' className="nav-item">
+        <ButtonWrapper onClick={() => {
+          setAnimationState({
+            ...animationState,
+            isStopped: false,
+            direction: animationState.direction === 1
+          })
+        }}>
+          <div className="animation">
+            <Lottie
+              options={defaultOptions}
+              width={100}
+              height={100}
+              direction={animationState.direction}
+              isStopped={animationState.isStopped}
+              isPaused={animationState.isPaused} />
+          </div>
+        </ButtonWrapper>
       </AnchorLink>
     </>
   );
