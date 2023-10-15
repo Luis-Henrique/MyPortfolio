@@ -1,5 +1,6 @@
 import React from "react";
 import "./css/AboutStyles.css";
+import arquivo from "../assets/CV_LuisHenrique.pdf"
 
 const About = () => {
     return (
@@ -43,9 +44,9 @@ const About = () => {
             </div>
             <div className="cv-section">
                 <div id="skills-anchor" className="anchor"></div>
-                <div className="cv-btn">
+                <a href={arquivo} download className="cv-btn">
                     <button className="button">Baixar Currículo</button>
-                </div>
+                </a>
             </div>
         </div>
     );
