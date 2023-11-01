@@ -24,7 +24,7 @@ export const Projects = () => {
       category: 'frontend',
       imgSrc: bgimg1,      
       categoryText: 'Front-end',
-      postTitle: 'MyPortifiolio',
+      postTitle: 'MyPortfolio',
       postDate: '04 Jul 2023',
       postDescription: 'Meu portifólio pessoal com uma amostra do meu trabalho, destacando minhas habilidades e experiência em desenvolvimento | React | JavaScript',
       profileImgSrc: profile1,
